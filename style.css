@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: white;
+    line-height: 0;  
+}
+
+.logocss{
+    float: left;
+    display: block;
+}
+
+.titulospost{
+    position: relative;
+    top: 20px;
+}
+
+.botones{
+    float: right;
+    display: block;
+    height: 30px;
+    position: relative;
+    top: -25px;
+    margin-right: 5px;
+}
+
+.imagen{
+    height: 300px;
+    width: 500px;
+}
+
+.iconos{
+    height: 50px;
+}
+
+.iconocorazon{
+    height: 30px;
+    position: relative;
+    top: 30%;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+.iconoburbuja{
+    height: 30px;
+    position: relative;
+    top: 30%;
+    margin-right: 1%;
+}
+
+.iconoenviar{
+    height: 30px;
+    position: relative;
+    top: 30%;
+    margin-right: 1%;
+}
+
+.iconoguardar{
+    height: 30px;
+    position: relative;
+    top: -30%;
+    margin-left: 90%;
+}
+
+.post{
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.articulo{
+    margin-left: 5%;
+}
